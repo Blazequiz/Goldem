@@ -1,0 +1,109 @@
+:root {
+--main--header--color: #FED136;
+--main--background--color: #fff;
+--main--title--color:#222222;
+--main--text--color:#777777;
+--main--form--color:#BBBBBB;
+--main--paragraph--family:"Roboto Slab", serif;
+--main--text--family:"Montserrat", sans-serif;
+--main--logo--family:"Bilbo Swash Caps", cursive;
+}
+body {
+  font-family:var(--main--text--family);
+}
+.container
+{
+  width: 904px;
+  padding: 0 15px;
+  outline: 2px dashed red;
+  margin: 0 auto;
+}
+.logo {
+  padding-right: 300px;
+  font-family: var(--main--logo--family);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 114%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--main--header--color);
+}
+.header-nav {
+  margin-bottom: 110px;
+  display: flex;
+}
+.header-nav-list {
+  display: flex; 
+  gap: 10px;
+  font-family: var(--main--text--color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 293%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main--header--color);
+}
+.section {
+  margin-bottom: 110px;
+}
+h1 {
+  padding-bottom: 88px;
+  text-align: center;
+}
+.section-list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+/* .section-list {
+  display: flex;
+}
+.section-image {
+  padding-left: 102px;
+}
+.section-title {
+  padding-left: 62px;
+} */
+.footer {
+  background-color: var(--main--title--color);
+}
+h2 {
+  color: var(--main--background--color);
+  text-align: center;
+  padding-top: 92px;
+  padding-bottom: 114px;
+}
+.sign_up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 232px;
+}
+::placeholder {
+  padding-bottom: 21px;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 310px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-family: var(--main--text--family);
+  color: #BBBBBB;
+}
+.button {
+  margin-bottom: 115px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 18px;
+  padding-bottom: 28px;
+  margin-left: 350px; 
+  border: none;
+  background-color: #FED136;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: var(--main--text--family);
+  
+}
+
