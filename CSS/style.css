@@ -33,6 +33,7 @@ body {
   display: flex;
 }
 .header-link {
+  font-family: var(--main--text--family);
   font-weight: 400;
   font-size: 14px;
   line-height: 293%;
@@ -66,7 +67,23 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 13px;
+}
+.section-title {
+  font-family: var(--main--text--family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 417%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #222;
+}
+.section-paragraph {
+  font-family: var(--main--paragraph--family);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #777;
 }
 /* .section-list {
   display: flex;
