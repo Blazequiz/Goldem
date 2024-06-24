@@ -49,19 +49,19 @@
           <a href="#" class="logo">Golden</a>
           <ul class="header-nav-list">
             <li class="header-nav-list-item">
-              <a href="./">HOME</a>
+              <a href="./" class="header-link">HOME</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="./">SERVICES</a>
+              <a href="./" class="header-link">SERVICES</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="./">PORTFOLIO</a>
+              <a href="./" class="header-link">PORTFOLIO</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="./">ABOUT</a>
+              <a href="./" class="header-link">ABOUT</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="./">CONTACT</a>
+              <a href="./" class="header-link">CONTACT</a>
             </li>
           </ul>
         </nav>
@@ -106,24 +106,37 @@
     <footer class="footer">
       <div class="container">
         <h2>CONTACT US</h2>
-        <form class="sign_up-form">
-          <label class="form-element">
-            <input type="text" name="name" placeholder="YOUR NAME*" />
-          </label>
-          <label class="form-element">
-            <input type="email" name="email" placeholder="YOUR E-MAIL*" />
-          </label>
-          <label class="form-element">
-            <input type="text" name="subject" placeholder="SUBJECT" />
-          </label>
-          <label class="">
-            <textarea
-              name="feedback"
-              rows="5"
-              placeholder="YOUR MESSAGE*"
-            ></textarea>
-          </label>
-        </form>
+        <ul class="form-list">
+         <li>
+          <form class="sign_up-form">
+            <div class="first-wrapper">
+              <label class="form-element">
+                <input type="text" name="name" placeholder="YOUR NAME*" class="placeholder-name">
+              </label>
+              <label class="form-element">
+                <input type="email" name="email" placeholder="YOUR E-MAIL*" class="placeholder-email">
+              </label>
+              <label class="form-element">
+                <input type="text" name="subject" placeholder="SUBJECT" class="placeholder-subject">
+              </label>
+            </div>
+          </form>
+         </li>
+          <li>
+            <form class="feedback">
+              <div class="second-wrapper">
+                <label class="">
+                  <textarea
+                    name="feedback"
+                    rows="5"
+                    placeholder="YOUR MESSAGE*"
+                    class="text-area"
+                    ></textarea>
+                </label>
+              </div>
+            </form>
+          </li>
+        </ul>
         <button type="submit" class="button">SEND MESSAGE</button>
       </div>
     </footer>

@@ -13,7 +13,7 @@ body {
 }
 .container
 {
-  width: 904px;
+  width: 964px;
   padding: 0 15px;
   outline: 2px dashed red;
   margin: 0 auto;
@@ -31,6 +31,14 @@ body {
 .header-nav {
   margin-bottom: 110px;
   display: flex;
+}
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 293%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fed136;
 }
 .header-nav-list {
   display: flex; 
@@ -53,7 +61,12 @@ h1 {
 .section-list {
   display: flex;
   justify-content: space-between;
-  
+}
+.section-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
 }
 /* .section-list {
   display: flex;
@@ -73,37 +86,71 @@ h2 {
   padding-top: 92px;
   padding-bottom: 114px;
 }
-.sign_up-form {
+/* .sign_up-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding-left: 232px;
-}
-::placeholder {
-  padding-bottom: 21px;
-  padding-top: 12px;
-  padding-left: 20px;
-  padding-right: 310px;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  font-family: var(--main--text--family);
-  color: #BBBBBB;
-}
+} */
 .button {
-  margin-bottom: 115px;
   padding-left: 33px;
   padding-right: 33px;
   padding-top: 18px;
   padding-bottom: 28px;
-  margin-left: 350px; 
+  margin-bottom: 115px;
+  display: block;
+  margin: 0  auto;
   border: none;
+  text-align: center;
   background-color: #FED136;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   font-family: var(--main--text--family);
-  
 }
-
+.first-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.form-list {
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+} 
+.text-area {
+  margin-left: 28px;
+  width: 458px;
+  height: 212px;
+}
+.placeholder-name {
+  width: 455px;
+  height: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bbb;
+}
+.placeholder-email {
+  width: 455px;
+  height: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bbb;
+}
+.placeholder-subject {
+  width: 455px;
+  height: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bbb;
+}
